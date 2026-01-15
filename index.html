@@ -1,14 +1,53 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Koamashi — Under Construction</title>
-    <meta name="description" content="Koamashi is building something new. Stay tuned." />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Komashi Technology Services</title>
+  <meta name="description" content="Komashi Technology Services — Coming soon." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+  </style>
 </head>
-<body>
-<main>
-   Komashi
-</main>
+
+<body class="min-h-screen bg-white text-gray-900">
+<section class="relative min-h-screen flex items-center justify-center overflow-hidden">
+
+  <!-- Background -->
+  <div class="absolute inset-0">
+    <div class="absolute inset-0 bg-gradient-to-br from-white via-gray-50 to-gray-100"></div>
+    <div class="absolute inset-0 opacity-60 bg-[radial-gradient(circle_at_15%_20%,rgba(0,0,0,0.06),transparent_42%),radial-gradient(circle_at_85%_30%,rgba(0,0,0,0.05),transparent_46%),radial-gradient(circle_at_50%_85%,rgba(0,0,0,0.04),transparent_52%)]"></div>
+    <!-- soft grain-ish overlay -->
+    <div class="absolute inset-0 opacity-[0.06] bg-[linear-gradient(to_right,rgba(0,0,0,0.25)_1px,transparent_1px),linear-gradient(to_bottom,rgba(0,0,0,0.25)_1px,transparent_1px)] bg-[size:32px_32px]"></div>
+  </div>
+
+  <!-- Content -->
+  <div class="relative z-10 text-center px-6">
+    <div class="flex flex-col md:flex-row items-center justify-center gap-4">
+
+      <!-- Logo -->
+      <img src="assets/logo.png"
+           alt="Komashi Logo"
+           class="h-12 w-12 md:h-18 md:w-18 object-contain" />
+
+      <!-- Brand -->
+      <h1 class="text-3xl sm:text-4xl md:text-6xl font-semibold tracking-tight text-gray-900 text-balance">
+        Komashi Technology Services
+      </h1>
+    </div>
+
+    <!-- Divider -->
+    <div class="mt-8 mb-5 h-px w-24 mx-auto bg-gradient-to-r from-transparent via-gray-400/60 to-transparent"></div>
+
+    <!-- Subtitle -->
+    <p class="text-base sm:text-lg text-gray-600 tracking-wide">
+      Coming soon.
+    </p>
+  </div>
+
+  <!-- Bottom fade -->
+  <div class="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent"></div>
+</section>
 </body>
 </html>
